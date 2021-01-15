@@ -7,7 +7,7 @@ class Usuario {
   validarCPF() {
     if(!this.cpf) return false
     let strCPF = this.cpf.replace(/\.|\-/g, "")
-    var som.a;
+    var soma;
     var resto;
     soma = 0;
     if (strCPF == "00000000000") return false;
